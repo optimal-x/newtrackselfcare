@@ -1,0 +1,92 @@
+/* global.css */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+#root,
+header {
+	overflow: visible;
+}
+
+@theme {
+	--animate-fadeIn: fadeIn 3s ease-in-out;
+
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+
+		50% {
+			opacity: 0.5;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+}
+
+:root {
+	--font-primary: 'Bricolage Grotesque', sans-serif;
+	--font-secondary: 'Baskervville', serif;
+
+	/* ========== Yellows ========== */
+	/* #f7eeb1 */
+	--banana-mania: rgb(247 238 177);
+	/* #e9d06b */
+	--arylide-yellow: rgb(233 208 107);
+	/* #f8d028  */
+	--sunglow: rgb(248 208 40);
+	/* #8c742c  */
+	--spanish-bistre: rgb(140 116 44);
+
+	--gold-metallic: rgba(219 182 54);
+
+	/* ========== Reds ========== */
+	/* #ede0d1 */
+	--almond: rgb(237 224 209);
+	/* #f8997c */
+	--light-salmon: rgb(248 153 124);
+	/* #f3887b */
+	--congo-pink: rgb(243 136 123);
+	/* #9f4f45 */
+	--middle-red-purple: rgb(159 79 69);
+	/* 7F4038 */
+	--bole: rgb(127 64 56);
+
+
+	/* ========== Greens ========== */
+	/* #d5e0d3 */
+	--light-silver: rgb(213 224 211);
+	/* #a7bfa4 */
+	--laurel-green: rgb(167 191 164);
+	/* #536440 */
+	--ebony: rgb(83 100 64);
+	/* #2a381e */
+	--pine-tree: rgb(42 56 30);
+	/* #38512f */
+	--kombu-green: rgb(56, 81, 47);
+
+	/* ========== Neutrals ========== */
+	/* #000000 */
+	--black: rgb(0 0 0);
+	/* #483634 */
+	--dark-lava: rgb(72 54 52);
+	/* #cab49e */
+	--khaki: rgb(202 180 158);
+	/* #f5f4f1 */
+	--cultured: rgb(245 244 241);
+	/* #fef5e7 */
+	--old-lace: rgb(254 245 231);
+	/* #fef5e7 */
+	--eggshell: rgb(243 231 212);
+	/* #d9cdba  */
+	--pastel-gray: rgb(217 205 186);
+
+
+	--air-superiority-blue: rgba(119, 160, 184, 0.8);
+	--police-blue: rgb(64 90 100);
+}
+
+body {
+	font-family: var(--font-primary);
+}
